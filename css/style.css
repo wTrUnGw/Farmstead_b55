@@ -7,16 +7,19 @@ header {
     align-items: center;
     box-shadow: 0 3px 9px rgba(0, 0, 0, 0.05);
 }
-header .logo{
-color: #fb811e;
-font-size: 30px;
-transition: all 0.5s;
+
+header .logo {
+    color: #fb811e;
+    font-size: 30px;
+    transition: all 0.5s;
 }
-header .logo:hover{
+
+header .logo:hover {
     color: black;
 }
+
 header .logo i {
-   position: absolute;
+    position: absolute;
     top: 0px;
     left: 75px;
     font-size: 20px;
@@ -26,10 +29,12 @@ header .menu i {
     margin: 10px 25px;
     font-size: 25px;
 }
-header .menu i:first-child{
+
+header .menu i:first-child {
     margin: 0;
 }
-.btn{
+
+.btn {
     font-size: 16px;
     line-height: 26px;
     text-transform: uppercase;
@@ -38,9 +43,62 @@ header .menu i:first-child{
     background: #fb811e;
     border: none;
     color: #fff;
-    border-radius: 30px; 
+    border-radius: 30px;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: #009f4d;
     color: white;
 }
+
+/* carousel */
+.banner-left {
+    position: absolute;
+    left: 10em;
+    z-index: 1;
+}
+
+.banner-left h1 {
+    color: #f4f4f4;
+    font-size: 120px;
+    font-weight: bold;
+    margin-left: -0.5em;
+}
+
+.carousel-inner .carousel-caption {
+    min-height: 100vh;
+    padding: 40px 0;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    text-align: center;
+    border-bottom-left-radius: 0px;
+    z-index: 0;
+}
+h5.small-title {
+    color: #fb811e;
+    font-size: 22px;}
+.title-style{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+    color: #060606;
+}
+.row .col {
+    padding: 40px 30px;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0 1rem 3rem rgb(0 0 0 / 3%);
+    background-color: #fff;
+}
+.row .col h4 a{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    margin-top: 25px;
+    display: block;
+    color: #060606;
+    text-decoration: none;
+}
+
