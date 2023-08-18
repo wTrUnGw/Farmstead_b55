@@ -20,9 +20,10 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <!-- Css -->
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style-dark.css">
 </head>
 
-<body>
+<body id="body" class="dark">
   <header class=" man fixed-top">
     <div class="container">
       <nav class="navbar navbar-light">
@@ -36,7 +37,8 @@
           <div class="icon">
 
             <i class="fa-solid fa-magnifying-glass"></i>
-            <i class="fa-regular fa-moon"></i>
+            <i id="change" class="fa-regular fa-moon"></i>
+       <i id="changee" class="fa-solid fa-sun"></i>
           </div>
 
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -71,7 +73,7 @@
   </header>
   <section id="carousel">
     <div class="container-fluid">
-      <div class="row d-flex align-items-center">
+      <div class="row d-flex align-items-center ">
         <div class="col-md-5 banner-left">
           <h1 class="text-hide p-lg-3 ">
             Farm</h1>
@@ -317,6 +319,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
 </body>
 
 </html>
