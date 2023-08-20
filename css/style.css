@@ -326,3 +326,31 @@ header .menu i:first-child {
     letter-spacing: 0.2px;
 }
 
+.backToTop {
+    position: fixed;
+    bottom: 90px;
+    right: 15px;
+    z-index: 9;
+    font-size: 12px;
+    cursor: pointer;
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    background: #009f4d;
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+.backToTop i {
+    color: white;
+}
+
+.cd-top--is-visible { 
+    visibility: visible;
+    opacity: 1;
+  }
+  
