@@ -326,6 +326,25 @@ header .menu i:first-child {
     letter-spacing: 0.2px;
 }
 
+/* carousel2 */
+.carousel-inner2 .carousel-item2 .carousel_content2{
+    position: absolute;
+    left:50%;
+    transform: translate(-50%, -50%);
+    top:50%;
+    
+    }
+    
+    .carousel-indicators2 li {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin-right: 3px;
+        margin-left: 3px
+    }
+    .carousel-indicators2 li.active{
+        background-color: orangered;
+    }
 .backToTop {
     position: fixed;
     bottom: 90px;
