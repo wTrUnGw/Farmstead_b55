@@ -32,10 +32,6 @@ p {
  #body .white{
     background-color: black;
 }
-/* .dark .box{
-    background-color: white;
-    color: black;
-} */
 header {
     background-color: transparent;
     padding: 15px;
@@ -45,6 +41,9 @@ header {
 }
 header .navbar{
     padding: 0;
+}
+p.banner-text{
+    font-size: 18px;
 }
 header .logo {
     color: #fb811e;
@@ -79,7 +78,7 @@ header .menu i:first-child {
 }
 
 .btn {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 26px;
     text-transform: uppercase;
     padding: 12px 30px;
@@ -104,7 +103,7 @@ header .menu i:first-child {
 
 .banner-left h1 {
     color: #f4f4f4;
-    font-size: 120px;
+    font-size: 130px;
     font-weight: bold;
     margin-left: -0.6em;
 }
@@ -130,21 +129,24 @@ header .menu i:first-child {
     height: 100vh;
     border-bottom-left-radius: 20px; 
     
+    
 }
 
 /* set cho carousel-item một chiều cao bằng 100% với cha là carousel-inner để cho chiều cao item không bị đài xuống tới dưới ảnh hưởng layout */
 .carousel-inner .carousel-item {
     height: 100%;
-
+    
 }
 .carousel-inner .carousel-item::before{
    content: "";
     position: absolute;
     width: 100%;
     height: 100%;
-    background: rgb(0 0 0 / 17%);
+    background: rgba(0, 0, 0, 0.17);
     z-index: -1;
-    top: 0; 
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 
@@ -159,9 +161,10 @@ header .menu i:first-child {
 }
 
 .carousel-indicators li {
-    width: 15px;
-    height: 15px;
+    width: 12px;
+    height: 12px;
     border-radius: 50%;
+    margin: 0 8px;
 }
 
 .carousel-indicators li.active {
@@ -169,6 +172,10 @@ header .menu i:first-child {
 }
 
 /* grow */
+.feature-right .row  {
+    margin-right: -78px;
+    margin-left: -25px;
+}
 .feature-right .row .col-md-5 {
     padding: 40px 30px;
     border-radius: 30px;
@@ -267,6 +274,7 @@ header .menu i:first-child {
 .col-md-5 a:hover {
     color: #009f4d;
     text-decoration: none;
+    transition: all 0.5s;
 }
 
 /* quality */
