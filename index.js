@@ -1,13 +1,3 @@
-// var changeWhite = document.getElementById("changeWhite");
-// changeWhite.onclick = function () {
-//   var body = document.getElementById("body");
-//   body.className = "white";
-// };
-// var changBlack = document.getElementById("changBlack");
-// changBlack.onclick = function () {
-//   var body = document.getElementById("body");
-//   body.classList.remove("white");
-// };
 var change = document.getElementById("change");
 
 change.onclick = function () {
