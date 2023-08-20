@@ -66,6 +66,7 @@ header .menu i {
     margin: 10px 6px;
     font-size: 25px;
     color: white;
+    cursor: pointer;
 }
 
 header .menu i:first-child {
